@@ -1,0 +1,13 @@
+console.log(Calculadora);
+var opc1 = prompt("Ingresa un numero");
+opc1 = parseInt(opc1);
+var opc2 = prompt("Ingresa un numero");
+opc2 = parseInt(opc2);
+var suma = opc1+opc2;
+alert("La suma de la operacion es: "+suma);
+var resta = opc1-opc2;
+alert("La resta de la operacion es: "+resta);
+var multiplicacion = opc1*opc2;
+alert("La multiplicacion de la operacion es: "+multiplicacion);
+var division = opc1/opc2;
+alert("La division de la operacion es: "+division);
